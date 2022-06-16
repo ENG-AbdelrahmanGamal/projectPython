@@ -1,17 +1,14 @@
-# This is a sample Python script.
+guess_count=3
+secret_number =9
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+while guess_count>0:
+    guess = int(input("Guess:"))
+    guess_count -= 1
+    if guess == secret_number:
+         print("you win !!")
+         break
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-a=300
-aa=50
-print(a+aa)
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+print("Done")
