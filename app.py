@@ -1,10 +1,9 @@
-is_cold = True
-is_hot= True
-if is_hot:
-    print("the weather is hot ")
-    print("please take some drink's")
-elif is_cold:
-    print("the weather is cold")
-    print("wear the warm clothes")
-else:
-    print("the weather is lovely")
+
+
+weight =int(input("Weight : " ))
+
+kind=input("(L) bs or (K)g: ")
+if(kind== 'k' or kind=='K'):
+    print(f"You are '  {weight*0.45} 'Kilos")
+elif(kind=='l' or kind=="L"):
+    print(f"You are '  {weight/0.45}  'pounds.")
